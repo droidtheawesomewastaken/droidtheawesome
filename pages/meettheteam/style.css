@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "roboto";
+  src: url(../../fonts/roboto.ttf) format("truetype");
+}
+
+.banner {
+  width: 60%;
+  border-radius: 5vw;
+  border-style: solid;
+  border-color: white;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+body {
+  background-color: black;
+}
+
+.title {
+  color: white;
+  font-size: 50px;
+  font-family: "roboto", sans-serif;
+  margin-left: 25vw;
+}
+
+.bodytext {
+  color: white;
+  margin-left: 25vw;
+  font-size: 25px;
+  max-width: 50%;
+  font-family: "roboto", sans-serif;
+}
+
+hr {
+  max-width: 50%;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.pfp {
+  margin-left: 22vw;
+  width: 12vw;
+  border-radius: 100vw;
+  border-style: solid;
+  border-color: white;
+  padding: 3px;
+}
+
+.membertext {
+  color: white;
+  margin-left: 37vw;
+  width: 30vw;
+  font-size: 2.7vw;
+  max-width: 50%;
+  font-family: "roboto", sans-serif;
+  margin-top: -13vw;
+  max-height: 50px;
+}
+
+.memberdesc {
+  color: gray;
+  margin-left: 37vw;
+  width: 40vw;
+  font-size: 1.2vw;
+  font-family: "roboto", sans-serif;
+  margin-top: -2vw;
+  margin-bottom: 5vw;
+}
+
+a .bodytext {
+  color: hotpink;
+}
+
+.footertext {
+  color: gray;
+  margin-left: 25vw;
+  font-size: 15px;
+  max-width: 50%;
+  font-family: "roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

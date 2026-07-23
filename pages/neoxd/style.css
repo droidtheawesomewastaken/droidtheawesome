@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "roboto";
+  src: url(../../fonts/roboto.ttf) format("truetype");
+}
+
+.banner {
+  width: 60%;
+  border-radius: 5vw;
+  border-style: solid;
+  border-color: white;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+body {
+  background-color: black;
+}
+
+.title {
+  color: white;
+  font-size: 50px;
+  font-family: "roboto", sans-serif;
+  margin-left: 25vw;
+}
+
+.bodytext {
+  color: white;
+  margin-left: 25vw;
+  font-size: 25px;
+  max-width: 50%;
+  font-family: "roboto", sans-serif;
+}
+
+hr {
+  max-width: 50%;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.gamebanner {
+  border-radius: 1vw;
+  border-style: solid;
+  border-color: white;
+  padding: 3px;
+  width: 10vw;
+}
+
+.gamebannersec {
+  border-radius: 1vw;
+  border-style: solid;
+  border-color: white;
+  margin-left: 25px;
+  padding: 3px;
+  width: 10vw;
+}
+
+.icon {
+  margin-left: 25vw;
+  width: 30px;
+}
+
+.icontext {
+  margin-left: 25px;
+  font-size: 25px;
+  max-width: 50%;
+  font-family: "roboto", sans-serif;
+}
+
+a .icontext {
+  color: hotpink;
+}
+
+a .bodytext {
+  color: hotpink;
+}
+
+.games {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footertext {
+  color: gray;
+  margin-left: 25vw;
+  font-size: 15px;
+  max-width: 50%;
+  font-family: "roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

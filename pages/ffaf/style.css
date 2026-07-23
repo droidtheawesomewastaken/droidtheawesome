@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "comicsans";
+  src: url(../../fonts/comicsans.ttf) format("truetype");
+}
+
+
+.banner {
+  width: 30%;
+  border-radius: 5vw;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+body {
+  background-image: url(../../images/neoxd/fivefivesatfuckass/ffaf_bg.png);
+  background-size: cover;
+}
+
+.title {
+  color: white;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "comicsans", sans-serif;
+}
+
+.bodytext {
+  color: white;
+  margin-left: 25vw;
+  font-size: 30px;
+  max-width: 50%;
+  font-family: "comicsans", sans-serif;
+}
+
+hr {
+  max-width: 50%;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.getbutton {
+  border-radius: 1vw;
+  border-style: solid;
+  border-color: white;
+  padding: 3px;
+  width: 12vw;
+}
+
+.getbuttonsec {
+  border-radius: 1vw;
+  border-style: solid;
+  border-color: white;
+  margin-left: 25px;
+  padding: 3px;
+  width: 12vw;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footertext {
+  color: gray;
+  margin-left: 25vw;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  font-size: 15px;
+  max-width: 50%;
+  font-family: "comicsans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

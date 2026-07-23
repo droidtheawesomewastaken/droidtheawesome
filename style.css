@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "inter";
+  src: url(fonts/inter.ttf) format("truetype");
+}
+
+body {
+  font-family: "inter", sans-serif;
+  background-color: black;
+  margin: 0;
+  min-height: 100vh;
+}
+
+button {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background: black;
+}
+
+.subtitle {
+  font-family: "inter", sans-serif;
+  background-color: gray;
+  margin: 0;
+  min-height: 100vh;
+}

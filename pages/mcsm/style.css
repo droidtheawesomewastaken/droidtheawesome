@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "minecraft";
+  src: url(../../fonts/minecraft.otf) format("opentype");
+}
+
+
+.banner {
+  width: 30%;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+body {
+  background-image: url(../../images/neoxd/megathread/bg.png);
+  background-size: cover;
+}
+
+.title {
+  color: white;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "minecraft", sans-serif;
+}
+
+.bodytext {
+  color: white;
+  margin-left: 25vw;
+  font-size: 30px;
+  max-width: 50%;
+  font-family: "minecraft", sans-serif;
+}
+
+hr {
+  max-width: 50%;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.getbutton {
+  border-radius: 1vw;
+  border-style: solid;
+  border-color: white;
+  padding: 3px;
+  width: 12vw;
+}
+
+.getbuttonsec {
+  border-radius: 1vw;
+  border-style: solid;
+  border-color: white;
+  margin-left: 25px;
+  padding: 3px;
+  width: 12vw;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footertext {
+  color: gray;
+  margin-left: 25vw;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  font-size: 15px;
+  max-width: 50%;
+  font-family: "minecraft", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
